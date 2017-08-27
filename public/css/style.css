@@ -202,6 +202,12 @@ hr {
 .tab-panel[aria-hidden="true"] {
   display: none; }
 
+body {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
 #logo {
   float: right;
   position: relative;
