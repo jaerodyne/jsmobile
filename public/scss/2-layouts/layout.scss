@@ -15,16 +15,23 @@ body {
 
 .wrap {
   @include span-columns(12 of 12);
-  padding: 0px 60px;
+  padding: 0px 100px;
 }
 
 .popout {
   @include span-columns(6 of 12);
   background-color: #9e99dc;
-  display: none;
-  min-height: 500px; 
-  opacity: 0.8;
-  float: left;
+  min-height: 500px;
+  opacity: 0;   
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+.popout-img:hover .popout {
+  opacity: 1;
 }
 
 .content {
@@ -41,5 +48,4 @@ button {
   width: 280px;
   padding: 10px;
   color: white;
-  background-color: rgb(48, 49, 54);
 }
