@@ -15,19 +15,19 @@ body {
 
 .wrap {
   @include span-columns(12 of 12);
-  padding: 0px 100px;
+  padding: 50px;
 }
 
 #popout {
-  @include span-columns(6 of 12);
-  // background-color: #9e99dc;
+  @include span-columns(5 of 12);
   min-height: 500px;
   float: left;
   opacity: 0.0;
+  padding: 10px;
 }
 
 .content {
-  @include span-columns(6 of 12);
+  @include span-columns(5 of 12);
   min-height: 500px;
   float: right;
 }

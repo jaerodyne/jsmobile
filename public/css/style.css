@@ -220,7 +220,7 @@ body {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  padding: 0px 100px; }
+  padding: 50px; }
   .wrap:last-child {
     margin-right: 0; }
 
@@ -228,10 +228,11 @@ body {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%;
+  width: 40.29137%;
   min-height: 500px;
   float: left;
-  opacity: 0.0; }
+  opacity: 0.0;
+  padding: 10px; }
   #popout:last-child {
     margin-right: 0; }
 
@@ -239,7 +240,7 @@ body {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%;
+  width: 40.29137%;
   min-height: 500px;
   float: right; }
   .content:last-child {

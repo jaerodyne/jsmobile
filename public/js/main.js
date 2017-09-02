@@ -1,14 +1,48 @@
 $(document).ready(function () {
-  $("#connections").click(function() {
+  $("#connections").mouseenter(function() {
     $(".wrap").find("#popout").css({
       "opacity": "1.0", 
-      // "background-color": "blue",
-      "background-image": "url(../img/background.jpg) no-repeat"
+      "background": "url(public/img/logo.png) no-repeat"
     });
+  }).mouseleave(function() {
+    $(".wrap").find("#popout").css({
+      "opacity": "0.0"
+    });
+  })
 
-    
-
+  $("#anml").hover(function() {
+    $(".wrap").find("#popout").css({
+      "opacity": "1.0", 
+      "background": "url(public/img/background.jpg) no-repeat"
+    });
+  }).mouseleave(function() {
+    $(".wrap").find("#popout").css({
+      "opacity": "0.0" 
+    })
   });
+
+  $("#looplio").hover(function() {
+    $(".wrap").find("#popout").css({
+      "opacity": "1.0", 
+      "background": "url(public/img/background.jpg) no-repeat"
+    });
+  }).mouseleave(function() {
+    $(".wrap").find("#popout").css({
+      "opacity": "0.0" 
+    })
+  });
+
+  $("#vimeow").hover(function() {
+    $(".wrap").find("#popout").css({
+      "opacity": "1.0", 
+      "background": "url(public/img/background.jpg) no-repeat"
+    });
+  }).mouseleave(function() {
+    $(".wrap").find("#popout").css({
+      "opacity": "0.0" 
+    })
+  });
+
 });
 
 $(function() {
