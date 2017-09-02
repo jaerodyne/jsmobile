@@ -1,11 +1,14 @@
 $(document).ready(function () {
-	$("nav").find("a").click(function(e) {
-	    e.preventDefault();
-	    var section = $(this).attr("href");
-	    $("html, body").animate({
-	        scrollTop: $(section).offset().top
-	    });
-	});
+  $("#connections").click(function() {
+    $(".wrap").find("#popout").css({
+      "opacity": "1.0", 
+      // "background-color": "blue",
+      "background-image": "url(../img/background.jpg) no-repeat"
+    });
+
+    
+
+  });
 });
 
 $(function() {

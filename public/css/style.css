@@ -224,33 +224,24 @@ body {
   .wrap:last-child {
     margin-right: 0; }
 
-.popout {
+#popout {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 48.82117%;
-  background-color: #9e99dc;
   min-height: 500px;
-  opacity: 0;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  transition: .5s; }
-  .popout:last-child {
+  float: left;
+  opacity: 0.0; }
+  #popout:last-child {
     margin-right: 0; }
-
-.popout-img:hover .popout {
-  opacity: 1; }
 
 .content {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 48.82117%;
-  float: right;
   min-height: 500px;
-  opacity: 0.8; }
+  float: right; }
   .content:last-child {
     margin-right: 0; }
 

@@ -18,27 +18,18 @@ body {
   padding: 0px 100px;
 }
 
-.popout {
+#popout {
   @include span-columns(6 of 12);
-  background-color: #9e99dc;
+  // background-color: #9e99dc;
   min-height: 500px;
-  opacity: 0;   
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  transition: .5s;
-}
-
-.popout-img:hover .popout {
-  opacity: 1;
+  float: left;
+  opacity: 0.0;
 }
 
 .content {
   @include span-columns(6 of 12);
-  float: right;
   min-height: 500px;
-  opacity: 0.8; 
+  float: right;
 }
 
 button {
