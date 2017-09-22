@@ -15,21 +15,21 @@ body {
 
 .wrap {
   @include span-columns(12 of 12);
-  padding: 50px;
 }
 
 #popout {
-  @include span-columns(5 of 12);
+  @include span-columns(6 of 12);
   min-height: 500px;
   float: left;
   opacity: 0.0;
-  padding: 10px;
 }
 
 .content {
-  @include span-columns(5 of 12);
+  @include span-columns(6 of 12);
   min-height: 500px;
   float: right;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
 button {
@@ -39,4 +39,16 @@ button {
   width: 280px;
   padding: 10px;
   color: white;
+}
+
+.bitmoji {
+  img {
+    border-radius: 10px;
+    height: 23em;
+    float: left;
+  }
+}
+
+.home-info {
+  float: right;
 }

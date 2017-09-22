@@ -219,8 +219,7 @@ body {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 100%;
-  padding: 50px; }
+  width: 100%; }
   .wrap:last-child {
     margin-right: 0; }
 
@@ -228,11 +227,10 @@ body {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 40.29137%;
+  width: 48.82117%;
   min-height: 500px;
   float: left;
-  opacity: 0.0;
-  padding: 10px; }
+  opacity: 0.0; }
   #popout:last-child {
     margin-right: 0; }
 
@@ -240,9 +238,11 @@ body {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 40.29137%;
+  width: 48.82117%;
   min-height: 500px;
-  float: right; }
+  float: right;
+  padding-left: 3em;
+  padding-right: 3em; }
   .content:last-child {
     margin-right: 0; }
 
@@ -253,5 +253,13 @@ button {
   width: 280px;
   padding: 10px;
   color: white; }
+
+.bitmoji img {
+  border-radius: 10px;
+  height: 23em;
+  float: left; }
+
+.home-info {
+  float: right; }
 
 /*# sourceMappingURL=style.css.map */
