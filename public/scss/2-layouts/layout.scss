@@ -4,7 +4,16 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: #000;
-  font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+  // font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif; 
+}
+
+h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif; 
+}
+
+p {
+  font-size: 28px;
 }
 
 .logo {
@@ -41,34 +50,40 @@ button {
   color: white;
 }
 
-.bitmoji {
-  @include span-columns(5 of 12);
+.profile-pic {
+  @include span-columns(4 of 12);
   
   img {
-    border-radius: 10px;
-    height: 100%;
-    width: 100%;
-    // border-radius: 50%;
-    // width: 200px;
-    // height: 200px; 
+    // border: solid 3px black;
+    border-radius: 50%;
+    height: 90%;
+    width: 90%;
+    display: block;
+  }
+}
+
+.name {
+  @include span-columns(8 of 12);
+
+  .title {
+    // border: solid 1px red;
+    // font-family: 'Cabin', sans-serif;
+    font-family: 'Merienda', cursive;
+    font-size: 50px;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+    display: block;
   }
 }
 
 .home-info {
-  @include span-columns(7 of 12);
-  
+  @include span-columns(12 of 12);
+   // border: solid 1px red;
   p {
-    padding-top: 7.5em;
+    // padding-top: 7.5em;
+    padding-right: 4em;
     line-height: 2em;
-    display: inline-block;
-  }
-  
-  .title {
-    // border: solid 1px red;
-    font-family: 'Cabin', sans-serif;
-    font-size: 40px;
-    padding-bottom: 0.2em;
-    display: inline-block;
+    font-size: 30px;
   }
 
 }

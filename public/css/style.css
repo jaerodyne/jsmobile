@@ -209,7 +209,13 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: #000;
-  font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; }
+  font-family: 'Yanone Kaffeesatz', sans-serif; }
+
+h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif; }
+
+p {
+  font-size: 28px; }
 
 .logo {
   float: right;
@@ -255,33 +261,43 @@ button {
   padding: 10px;
   color: white; }
 
-.bitmoji {
+.profile-pic {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 40.29137%; }
-  .bitmoji:last-child {
+  width: 31.76157%; }
+  .profile-pic:last-child {
     margin-right: 0; }
-  .bitmoji img {
-    border-radius: 10px;
-    height: 100%;
-    width: 100%; }
+  .profile-pic img {
+    border-radius: 50%;
+    height: 90%;
+    width: 90%;
+    display: block; }
+
+.name {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .name:last-child {
+    margin-right: 0; }
+  .name .title {
+    font-family: 'Merienda', cursive;
+    font-size: 50px;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+    display: block; }
 
 .home-info {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 57.35098%; }
+  width: 100%; }
   .home-info:last-child {
     margin-right: 0; }
   .home-info p {
-    padding-top: 7.5em;
+    padding-right: 4em;
     line-height: 2em;
-    display: inline-block; }
-  .home-info .title {
-    font-family: 'Cabin', sans-serif;
-    font-size: 40px;
-    padding-bottom: 0.2em;
-    display: inline-block; }
+    font-size: 30px; }
 
 /*# sourceMappingURL=style.css.map */
