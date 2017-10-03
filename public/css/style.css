@@ -255,12 +255,32 @@ button {
   padding: 10px;
   color: white; }
 
-.bitmoji img {
-  border-radius: 10px;
-  height: 23em;
-  float: left; }
+.bitmoji {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .bitmoji:last-child {
+    margin-right: 0; }
+  .bitmoji img {
+    border-radius: 10px;
+    height: 23em; }
 
 .home-info {
-  float: right; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .home-info:last-child {
+    margin-right: 0; }
+  .home-info p {
+    padding-top: 7.5em;
+    line-height: 2em;
+    display: inline-block; }
+  .home-info .title {
+    font-family: 'Cabin', sans-serif;
+    font-size: 40px;
+    padding-bottom: 0.2em;
+    display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */

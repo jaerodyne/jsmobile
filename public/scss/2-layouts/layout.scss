@@ -42,13 +42,29 @@ button {
 }
 
 .bitmoji {
+  @include span-columns(4 of 12);
+  
   img {
     border-radius: 10px;
     height: 23em;
-    float: left;
   }
 }
 
 .home-info {
-  float: right;
+  @include span-columns(8 of 12);
+  
+  p {
+    padding-top: 7.5em;
+    line-height: 2em;
+    display: inline-block;
+  }
+  
+  .title {
+    // border: solid 1px red;
+    font-family: 'Cabin', sans-serif;
+    font-size: 40px;
+    padding-bottom: 0.2em;
+    display: inline-block;
+  }
+
 }
