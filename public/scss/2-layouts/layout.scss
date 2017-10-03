@@ -42,16 +42,20 @@ button {
 }
 
 .bitmoji {
-  @include span-columns(4 of 12);
+  @include span-columns(5 of 12);
   
   img {
     border-radius: 10px;
-    height: 23em;
+    height: 100%;
+    width: 100%;
+    // border-radius: 50%;
+    // width: 200px;
+    // height: 200px; 
   }
 }
 
 .home-info {
-  @include span-columns(8 of 12);
+  @include span-columns(7 of 12);
   
   p {
     padding-top: 7.5em;
