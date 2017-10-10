@@ -13,12 +13,19 @@ $(document).ready(function () {
   $("#anml").hover(function() {
     $(".wrap").find("#popout").css({
       "opacity": "1.0", 
-      "background": "url(public/img/background.jpg) no-repeat"
+      "background": "url(public/img/anml1.png) no-repeat"
     });
   }).mouseleave(function() {
     $(".wrap").find("#popout").css({
       "opacity": "0.0" 
     })
+  });
+
+  $("#anml").click(function(e) {
+    e.preventDefault();
+    $(".wrap").find("#popout").addClass('no-hover');
+
+    console.log('hey');
   });
 
   $("#looplio").hover(function() {

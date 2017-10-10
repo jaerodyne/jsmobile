@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  color: #000;
+  color: #352705;
   // font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
   font-family: 'Yanone Kaffeesatz', sans-serif; 
 }
@@ -31,6 +31,12 @@ p {
   min-height: 500px;
   float: left;
   opacity: 0.0;
+  border: solid 1px red;
+  padding-left: 5em;
+}
+
+#popout:not(.no-hover):hover { /* only apply hover styling when the div does not have the class 'no-hover' */
+  color: red;
 }
 
 .content {
@@ -52,23 +58,27 @@ button {
 
 .profile-pic {
   @include span-columns(4 of 12);
+  // border: solid 3px red;
+  margin-right: 0em;
+  padding-left: 0.6em;
   
   img {
-    // border: solid 3px black;
     border-radius: 50%;
-    height: 90%;
-    width: 90%;
+    height: 95%;
+    width: 95%;
     display: block;
+    opacity: 0.8;
   }
 }
 
 .name {
   @include span-columns(8 of 12);
+  // border: solid 3px red;
 
   .title {
-    font-family: 'Merienda', cursive;
-    font-size: 50px;
-    padding-top: 0.5em;
+    font-family: "HanziPen TC";
+    font-weight: 900;
+    font-size: 60px;
     padding-bottom: 0.2em;
     display: block;
   }
@@ -78,6 +88,7 @@ button {
   @include span-columns(12 of 12);
   
   p {
+    padding-left: 0.4em;
     padding-right: 4em;
     line-height: 2em;
     font-size: 30px;

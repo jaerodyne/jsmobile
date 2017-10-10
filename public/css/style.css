@@ -208,7 +208,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  color: #000;
+  color: #352705;
   font-family: 'Yanone Kaffeesatz', sans-serif; }
 
 h1 {
@@ -237,9 +237,15 @@ p {
   width: 48.82117%;
   min-height: 500px;
   float: left;
-  opacity: 0.0; }
+  opacity: 0.0;
+  border: solid 1px red;
+  padding-left: 5em; }
   #popout:last-child {
     margin-right: 0; }
+
+#popout:not(.no-hover):hover {
+  /* only apply hover styling when the div does not have the class 'no-hover' */
+  color: red; }
 
 .content {
   float: left;
@@ -265,14 +271,17 @@ button {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
+  width: 31.76157%;
+  margin-right: 0em;
+  padding-left: 0.6em; }
   .profile-pic:last-child {
     margin-right: 0; }
   .profile-pic img {
     border-radius: 50%;
-    height: 90%;
-    width: 90%;
-    display: block; }
+    height: 95%;
+    width: 95%;
+    display: block;
+    opacity: 0.8; }
 
 .name {
   float: left;
@@ -282,9 +291,9 @@ button {
   .name:last-child {
     margin-right: 0; }
   .name .title {
-    font-family: 'Merienda', cursive;
-    font-size: 50px;
-    padding-top: 0.5em;
+    font-family: "HanziPen TC";
+    font-weight: 900;
+    font-size: 60px;
     padding-bottom: 0.2em;
     display: block; }
 
@@ -296,6 +305,7 @@ button {
   .home-info:last-child {
     margin-right: 0; }
   .home-info p {
+    padding-left: 0.4em;
     padding-right: 4em;
     line-height: 2em;
     font-size: 30px; }
