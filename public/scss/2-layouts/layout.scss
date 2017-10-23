@@ -1,0 +1,112 @@
+body { 
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #352705;
+  // font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif; 
+}
+
+h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif; 
+}
+
+p {
+  font-size: 28px;
+}
+
+li {
+  font-size: 24px;
+}
+
+.logo {
+	float: right;
+	position: relative;
+  width: 10em;
+}
+
+.wrap {
+  @include span-columns(12 of 12);
+}
+
+#popout {
+  @include span-columns(5 of 12);
+  min-height: 500px;
+  float: left;
+  opacity: 0.0;
+  border: solid 1px black;
+  background-color: #FFF;
+  margin-left: 5em;
+}
+
+#popout h1 {
+  padding-top: 2em;
+  text-align: center;
+  font-size: 90px;
+  color: #000;
+}
+
+// #popout:not(.no-hover):hover { only apply hover styling when the div does not have the class 'no-hover'
+//   color: red;
+// }
+
+.content {
+  @include span-columns(6 of 12);
+  min-height: 500px;
+  float: right;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+button {
+  font-size: 18px; 
+  border-radius: 5px;
+  border-color: rgb(48, 49, 54);
+  width: 280px;
+  padding: 10px;
+  color: white;
+}
+
+.profile-pic {
+  @include span-columns(4 of 12);
+  // border: solid 3px red;
+  margin-right: 0em;
+  padding-left: 0.6em;
+  
+  img {
+    border-radius: 50%;
+    height: 95%;
+    width: 95%;
+    display: block;
+    opacity: 0.8;
+  }
+}
+
+.name {
+  @include span-columns(8 of 12);
+  // border: solid 3px red;
+
+  .title {
+    font-family: "HanziPen TC";
+    font-weight: 900;
+    font-size: 60px;
+    padding-bottom: 0.2em;
+    display: block;
+  }
+}
+
+.home-info {
+  @include span-columns(12 of 12);
+  
+  p {
+    padding-left: 0.4em;
+    padding-right: 4em;
+    line-height: 2em;
+    font-size: 30px;
+  }
+}
+
+.tab-list {
+  font-size: 24px;
+}
