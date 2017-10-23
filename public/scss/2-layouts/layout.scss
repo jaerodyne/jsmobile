@@ -16,6 +16,10 @@ p {
   font-size: 28px;
 }
 
+li {
+  font-size: 24px;
+}
+
 .logo {
 	float: right;
 	position: relative;
@@ -27,17 +31,25 @@ p {
 }
 
 #popout {
-  @include span-columns(6 of 12);
+  @include span-columns(5 of 12);
   min-height: 500px;
   float: left;
   opacity: 0.0;
-  border: solid 1px red;
-  padding-left: 5em;
+  border: solid 1px black;
+  background-color: #FFF;
+  margin-left: 5em;
 }
 
-#popout:not(.no-hover):hover { /* only apply hover styling when the div does not have the class 'no-hover' */
-  color: red;
+#popout h1 {
+  padding-top: 2em;
+  text-align: center;
+  font-size: 90px;
+  color: #000;
 }
+
+// #popout:not(.no-hover):hover { only apply hover styling when the div does not have the class 'no-hover'
+//   color: red;
+// }
 
 .content {
   @include span-columns(6 of 12);

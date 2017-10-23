@@ -217,6 +217,9 @@ h1 {
 p {
   font-size: 28px; }
 
+li {
+  font-size: 24px; }
+
 .logo {
   float: right;
   position: relative;
@@ -225,7 +228,7 @@ p {
 .wrap {
   float: left;
   display: block;
-  margin-right: 2.35765%;
+  margin-right: 2.3576520234%;
   width: 100%; }
   .wrap:last-child {
     margin-right: 0; }
@@ -233,25 +236,28 @@ p {
 #popout {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
+  margin-right: 2.3576520234%;
+  width: 40.291369653%;
   min-height: 500px;
   float: left;
   opacity: 0.0;
-  border: solid 1px red;
-  padding-left: 5em; }
+  border: solid 1px black;
+  background-color: #FFF;
+  margin-left: 5em; }
   #popout:last-child {
     margin-right: 0; }
 
-#popout:not(.no-hover):hover {
-  /* only apply hover styling when the div does not have the class 'no-hover' */
-  color: red; }
+#popout h1 {
+  padding-top: 2em;
+  text-align: center;
+  font-size: 90px;
+  color: #000; }
 
 .content {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
+  margin-right: 2.3576520234%;
+  width: 48.8211739883%;
   min-height: 500px;
   float: right;
   padding-left: 3em;
@@ -270,8 +276,8 @@ button {
 .profile-pic {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%;
+  margin-right: 2.3576520234%;
+  width: 31.7615653177%;
   margin-right: 0em;
   padding-left: 0.6em; }
   .profile-pic:last-child {
@@ -286,8 +292,8 @@ button {
 .name {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%; }
+  margin-right: 2.3576520234%;
+  width: 65.8807826589%; }
   .name:last-child {
     margin-right: 0; }
   .name .title {
@@ -300,7 +306,7 @@ button {
 .home-info {
   float: left;
   display: block;
-  margin-right: 2.35765%;
+  margin-right: 2.3576520234%;
   width: 100%; }
   .home-info:last-child {
     margin-right: 0; }
