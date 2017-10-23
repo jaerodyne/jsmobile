@@ -1,3 +1,3 @@
 # jsmobile
 
-A simple static website to display my independent contractor work using good old Html, Css, and Javascript.
+A simple static website to display my independent contractor work using good old HTML, CSS, and Javascript.
