@@ -238,17 +238,20 @@ li {
   display: block;
   margin-right: 2.3576520234%;
   width: 40.291369653%;
-  min-height: 500px;
   float: left;
   opacity: 0.0;
   border: solid 1px black;
   background-color: #FFF;
-  margin-left: 5em; }
+  margin-left: 5em;
+  height: 30%;
+  width: 41%;
+  margin-top: 5em;
+  padding-top: 7em;
+  padding-bottom: 4.5em; }
   #popout:last-child {
     margin-right: 0; }
 
 #popout h1 {
-  padding-top: 2em;
   text-align: center;
   font-size: 90px;
   color: #000; }
