@@ -1,4 +1,23 @@
 $(document).ready(function () {
+  $("#filld").hover(function() {
+    $(".wrap").find("#popout").css({
+      "opacity": "1.0",
+      "background": "url(public/img/filld-bkgd.png) no-repeat",
+      "border": "none"
+    });
+    $(".wrap").find("#popout h1").css({
+      "opacity": "0.0"
+    });
+  }).mouseleave(function() {
+    $(".wrap").find("#popout").css({
+      "opacity": "0.0",
+      "background": "none", 
+    })
+    $(".wrap").find("#popout h1").css({
+      "opacity": "1.0"
+    });
+  });
+
   $("#connections").mouseenter(function() {
     $(".wrap").find("#popout").css({
       "opacity": "0.6",
@@ -56,13 +75,21 @@ $(document).ready(function () {
 
   $("#vimeow").hover(function() {
     $(".wrap").find("#popout").css({
-      "opacity": "0.6",
-      "background-color": "white"
+      "opacity": "1.0",
+      "background": "url(public/img/vimeow-bkgd.png) no-repeat",
+      "border": "none"
+    });
+    $(".wrap").find("#popout h1").css({
+      "opacity": "0.0"
     });
   }).mouseleave(function() {
     $(".wrap").find("#popout").css({
-      "opacity": "0.0" 
+      "opacity": "0.0",
+      "background": "none", 
     })
+    $(".wrap").find("#popout h1").css({
+      "opacity": "1.0"
+    });
   });
 
 });
