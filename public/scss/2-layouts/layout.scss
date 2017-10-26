@@ -32,16 +32,20 @@ li {
 
 #popout {
   @include span-columns(5 of 12);
-  min-height: 500px;
   float: left;
   opacity: 0.0;
   border: solid 1px black;
   background-color: #FFF;
   margin-left: 5em;
+  height: 30%;
+  width: 40%;
+  margin-top: 5em;
+  padding-top: 7em;
+  padding-bottom: 4em;
 }
 
 #popout h1 {
-  padding-top: 2em;
+  // padding-top: 1em;
   text-align: center;
   font-size: 90px;
   color: #000;
